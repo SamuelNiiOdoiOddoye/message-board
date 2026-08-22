@@ -1,4 +1,4 @@
-.venv/
+@"
 # =========================
 # Python
 # =========================
@@ -24,7 +24,10 @@ ENV/
 db.sqlite3
 db.sqlite3-journal
 
-# Static/media generated files
+# =========================
+# Static / media generated files
+# =========================
+
 staticfiles/
 media/
 
@@ -64,11 +67,4 @@ htmlcov/
 
 .mypy_cache/
 .ruff_cache/
-
-# =========================
-# directories to ignore
-# =========================
-.venv/ 
-db.sqlite3
-__pycache__/
-.env
+"@ | Set-Content .gitignore
