@@ -1,0 +1,74 @@
+.venv/
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Django
+# =========================
+
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Static/media generated files
+staticfiles/
+media/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs / Editors
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS generated files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Type checking / linting
+# =========================
+
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# directories to ignore
+# =========================
+.venv/ 
+db.sqlite3
+__pycache__/
+.env
